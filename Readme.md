@@ -469,6 +469,8 @@ The `S3Sync` utility class wraps `aws s3 sync` for bidirectional folder synchron
 
 This enables precise debugging across all pipeline stages.
 
+---
+
 ## Author
 
 **Kunal Saini**
