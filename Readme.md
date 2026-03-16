@@ -469,20 +469,6 @@ The `S3Sync` utility class wraps `aws s3 sync` for bidirectional folder synchron
 
 This enables precise debugging across all pipeline stages.
 
----
-
-## Future Enhancements
-
-- [ ] Add CI/CD pipeline (GitHub Actions) for automated training & deployment
-- [ ] Implement model monitoring with data drift alerts in production
-- [ ] Add deep learning models (e.g., Neural Network classifier) for comparison
-- [ ] Deploy on AWS EC2 / ECS with load balancing
-- [ ] Add authentication & rate limiting to FastAPI endpoints
-- [ ] Implement A/B testing framework for model comparison in production
-- [ ] Add Grafana dashboard for real-time prediction monitoring
-
----
-
 ## Author
 
 **Kunal Saini**
