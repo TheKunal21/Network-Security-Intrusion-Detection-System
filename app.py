@@ -88,4 +88,7 @@ async def predict_route(request:Request,file: UploadFile = File(...)):
 
     
 if __name__ == "__main__":
-    app_run(app, host="0.0.0.0", port=8000)
+    # Render automatically PORT environment variable assign karta hai.
+    # Local system par run karne ke liye yeh fallback (8000) use karega.
+    port = int(os.environ.get("PORT", 8000))
+    app_run(app, host="0.0.0.0", port=port)
